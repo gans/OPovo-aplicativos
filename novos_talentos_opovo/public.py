@@ -20,7 +20,7 @@
 
 from publica import settings
 from publica.admin.exchange import getDadosSite, getSiteByHost
-from publica.utils.json import encode, decode
+from publica.utils.util import encode, decode
 from publica.utils.decorators import dbconnectionapp, serialize, jsoncallback
 from publica.utils.BeautifulSoup import BeautifulSoup
 from urllib import splitquery, splitvalue, unquote, quote

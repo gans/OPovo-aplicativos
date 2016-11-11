@@ -24,7 +24,7 @@ from urllib import splitquery, splitvalue, unquote, quote
 from publica import settings
 from publica.core.portal import Portal
 from publica.admin.exchange import getDadosSite, getSiteByHost
-from publica.utils.json import encode, decode
+from publica.utils.util import encode, decode
 from publica.utils.BeautifulSoup import BeautifulSoup
 from publica.utils.decorators import dbconnectionapp, serialize, jsoncallback
 

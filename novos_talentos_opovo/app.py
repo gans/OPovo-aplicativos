@@ -20,7 +20,7 @@
 from time import time, strftime, strptime
 from publica.core.portal import Portal
 from publica.admin.error import UserError
-from publica.utils.json import encode
+from publica.utils.util import encode
 from publica.utils.decorators import serialize, dbconnectionapp,\
                                      Permission, logportal
 from publica.admin.appportal import PortalUtils
